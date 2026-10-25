@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b0d12">
+<meta name="description" content="Personal portfolio of Ishu Das, Electronics and Communication Engineering student.">
+<title>Ishu Das | Portfolio</title>
+<style>
+:root{--bg:#0b0d12;--panel:#121620;--text:#f4f6fb;--muted:#9aa4b5;--line:rgba(255,255,255,.1);--accent:#a7f36b;--accent2:#9b8cff;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(155,140,255,.12),transparent 35%),radial-gradient(ellipse at 0% 40%,rgba(167,243,107,.07),transparent 30%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:20;background:rgba(11,13,18,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav-inner{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:-.04em;font-size:1.15rem}.brand span{color:var(--accent)}.nav-links{display:flex;gap:26px;align-items:center;color:var(--muted);font-size:.9rem}.nav-links a:hover{color:var(--accent)}.menu{display:none;background:none;border:1px solid var(--line);color:var(--text);border-radius:10px;padding:8px 11px;font-size:1.1rem}.hero{min-height:calc(90vh - 72px);display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:55px;padding-top:64px;padding-bottom:80px}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800;display:flex;align-items:center;gap:10px}.dot{width:7px;height:7px;background:var(--accent);border-radius:50%;box-shadow:0 0 18px var(--accent)}h1{font-size:clamp(3rem,7vw,6.4rem);letter-spacing:-.075em;line-height:.99;margin:22px 0 24px;font-weight:850}h1 .stroke{color:transparent;-webkit-text-stroke:1px #f4f6fb}h1 .green{color:var(--accent)}.lead{font-size:1.08rem;color:var(--muted);max-width:590px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:12px;padding:13px 18px;font-weight:750;font-size:.92rem;border:1px solid var(--line);transition:transform .2s,border-color .2s}.btn:hover{transform:translateY(-3px);border-color:var(--accent)}.btn.primary{background:var(--accent);color:#10140d;border-color:var(--accent)}.hero-card{position:relative;min-height:400px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.015));padding:28px;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}.hero-card:before{content:"";position:absolute;width:250px;height:250px;border-radius:50%;background:var(--accent);filter:blur(100px);opacity:.14;right:-80px;top:-60px}.orbit{position:absolute;width:240px;height:240px;border:1px solid rgba(167,243,107,.35);border-radius:50%;top:65px;left:50%;transform:translateX(-50%)}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid rgba(155,140,255,.35);border-radius:50%;inset:22px;transform:rotate(55deg) scaleX(.55)}.orbit:after{transform:rotate(-55deg) scaleX(.55)}.monogram{position:absolute;top:120px;left:50%;transform:translateX(-50%);font-size:5rem;font-weight:900;letter-spacing:-.1em;color:var(--accent);text-shadow:0 0 50px rgba(167,243,107,.2)}.card-label{position:relative;display:flex;justify-content:space-between;color:var(--muted);font-size:.8rem}.card-bottom{position:relative}.card-bottom strong{display:block;font-size:1.35rem}.card-bottom span{color:var(--muted);font-size:.9rem}.scroll-note{margin-top:28px;color:var(--muted);font-size:.8rem;display:flex;gap:10px;align-items:center}.scroll-note:before{content:"";height:1px;width:35px;background:var(--muted)}section{padding:88px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}.kicker{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:800}h2{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.06em;line-height:1.05;margin:10px 0 0}.section-intro{max-width:430px;color:var(--muted);margin:0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:rgba(255,255,255,.025);border:1px solid var(--line);border-radius:20px;padding:26px}.panel p{color:var(--muted);margin-bottom:0}.stat-row{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}.stat{border:1px solid var(--line);border-radius:15px;padding:18px}.stat strong{font-size:1.25rem;display:block}.stat span{font-size:.82rem;color:var(--muted)}.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}.tag{padding:8px 12px;border:1px solid var(--line);border-radius:999px;color:#d9deea;font-size:.84rem}.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skill{padding:22px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.025)}.skill .num{color:var(--accent);font-size:.8rem;font-weight:800}.skill h3{margin:12px 0 7px;font-size:1.05rem}.skill p{color:var(--muted);font-size:.9rem;margin:0}.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.project{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:rgba(255,255,255,.025);transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:rgba(167,243,107,.55)}.project-art{height:180px;padding:22px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,rgba(167,243,107,.12),rgba(155,140,255,.15));position:relative;overflow:hidden}.project-art:before,.project-art:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.18);width:170px;height:170px;border-radius:35px;transform:rotate(35deg)}.project-art:after{width:120px;height:120px;transform:rotate(65deg)}.project-icon{z-index:1;font-size:3rem}.project-content{padding:23px}.project-content h3{margin:0 0 8px;font-size:1.2rem}.project-content p{color:var(--muted);font-size:.92rem;margin:0}.project-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:17px}.project-meta span{font-size:.75rem;border:1px solid var(--line);padding:5px 9px;border-radius:999px;color:#c5ccda}.edu{display:grid;grid-template-columns:180px 1fr;gap:25px;padding:25px 0;border-bottom:1px solid var(--line)}.edu:last-child{border-bottom:0}.edu-year{color:var(--accent);font-size:.88rem;font-weight:800}.edu h3{margin:0 0 5px}.edu p{color:var(--muted);margin:0}.contact-box{border:1px solid var(--line);border-radius:26px;padding:clamp(26px,5vw,55px);background:linear-gradient(125deg,rgba(167,243,107,.08),rgba(155,140,255,.09));display:grid;grid-template-columns:1fr auto;gap:25px;align-items:center}.contact-box h2{max-width:620px}.contact-box p{color:var(--muted);max-width:530px}.contact-links{display:flex;flex-direction:column;gap:10px;min-width:150px}.contact-links a{border:1px solid var(--line);border-radius:11px;padding:11px 14px;font-size:.9rem}.contact-links a:hover{border-color:var(--accent)}footer{padding:25px 0;color:var(--muted);font-size:.82rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}.edit-note{font-size:.78rem;color:var(--muted);margin-top:16px}
+@media(max-width:760px){.wrap{width:min(var(--max),calc(100% - 30px))}.nav-inner{height:64px}.menu{display:block}.nav-links{display:none;position:absolute;left:15px;right:15px;top:64px;padding:18px;background:#121620;border:1px solid var(--line);border-radius:15px;flex-direction:column;align-items:stretch;gap:13px}.nav-links.open{display:flex}.hero{grid-template-columns:1fr;gap:30px;min-height:auto;padding-top:65px;padding-bottom:65px}.hero-card{min-height:330px}.orbit{top:40px}.monogram{top:95px}.section-head{display:block}.section-intro{margin-top:15px}.about-grid,.project-grid{grid-template-columns:1fr}.skills-grid{grid-template-columns:1fr}.edu{grid-template-columns:1fr;gap:8px}.contact-box{grid-template-columns:1fr}.contact-links{flex-direction:row;flex-wrap:wrap}.contact-links a{flex:1;text-align:center}.stat-row{grid-template-columns:1fr 1fr}section{padding:65px 0}h1{font-size:clamp(3.4rem,15vw,5.3rem)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#home">ISHU<span>.</span></a>
+    <button class="menu" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero wrap" id="home" style="border-top:0">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="dot"></span> ECE Student · Aspiring Engineer</div>
+      <h1>Hi, I'm<br><span class="green">Ishu</span> <span class="stroke">Das.</span></h1>
+      <p class="lead">I’m an Electronics and Communication Engineering student interested in technology, problem-solving, and building useful things. This is where I share what I’m learning and working on.</p>
+      <div class="actions"><a class="btn primary" href="#projects">Explore my work <span>↗</span></a><a class="btn" href="#contact">Get in touch</a></div>
+      <div class="scroll-note">Scroll to know more</div>
+    </div>
+    <div class="hero-card" aria-label="Portfolio identity card">
+      <div class="card-label"><span>PERSONAL PORTFOLIO</span><span>2026</span></div>
+      <div class="orbit"></div><div class="monogram">ID</div>
+      <div class="card-bottom"><strong>Ishu Das</strong><span>Learning. Building. Improving.</span></div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="kicker">01 / About</div><h2>A little about me.</h2></div><p class="section-intro">An engineering student learning how ideas move from a notebook to something that works.</p></div>
+      <div class="about-grid">
+        <article class="panel reveal"><h3>Who I am</h3><p>I’m Ishu Das, a first-year B.E. student in Electronics and Communication Engineering at Chandigarh University. I’m building my foundation in engineering and exploring the software and hardware tools that can help me turn ideas into projects.</p><div class="tags"><span class="tag">Electronics</span><span class="tag">Technology</span><span class="tag">Learning by building</span></div></article>
+        <article class="panel reveal"><h3>What I’m working toward</h3><p>My current focus is learning core engineering concepts, improving my programming skills, and working on practical projects with clear real-world uses.</p><div class="stat-row"><div class="stat"><strong>ECE</strong><span>Degree program</span></div><div class="stat"><strong>Year 1</strong><span>Current study stage</span></div></div></article>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="kicker">02 / Skills</div><h2>Tools I’m learning.</h2></div><p class="section-intro">Keep this section honest. Add a skill only when you can explain or use it without summoning a tutorial every thirty seconds.</p></div>
+      <div class="skills-grid">
+        <article class="skill reveal"><span class="num">01</span><h3>Programming</h3><p>C programming and problem-solving fundamentals.</p></article>
+        <article class="skill reveal"><span class="num">02</span><h3>Electronics</h3><p>Core ECE concepts, circuits, and lab work.</p></article>
+        <article class="skill reveal"><span class="num">03</span><h3>Design & Research</h3><p>Project planning, presentation design, and researching solutions.</p></article>
+      </div>
+      <p class="edit-note">Edit these descriptions to match your actual experience before publishing.</p>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="kicker">03 / Projects</div><h2>Things I’m exploring.</h2></div><p class="section-intro">A project section is most useful when it explains the problem, your approach, and what you personally built.</p></div>
+      <div class="project-grid">
+        <article class="project reveal"><div class="project-art"><div class="project-icon">🌱</div></div><div class="project-content"><h3>Smart Plant Care</h3><p>A concept for helping urban plant owners track plant needs and make care easier. Add your sensors, design, and test results when available.</p><div class="project-meta"><span>IoT concept</span><span>Design thinking</span><span>In development</span></div></div></article>
+        <article class="project reveal"><div class="project-art"><div class="project-icon">⚡</div></div><div class="project-content"><h3>Smart Energy Management</h3><p>A project concept exploring how to monitor energy use and reduce waste with sensors and simple automation.</p><div class="project-meta"><span>Energy</span><span>Electronics</span><span>Concept</span></div></div></article>
+      </div>
+      <p class="edit-note">These are project concepts, not claims of completed work. Replace them with your real projects, photos, GitHub links, and results as you build them.</p>
+    </div>
+  </section>
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head reveal"><div><div class="kicker">04 / Education</div><h2>My learning path.</h2></div></div>
+      <div class="panel reveal">
+        <div class="edu"><div class="edu-year">Current</div><div><h3>Bachelor of Engineering (B.E.)</h3><p>Electronics and Communication Engineering · Chandigarh University</p></div></div>
+        <div class="edu"><div class="edu-year">Completed</div><div><h3>Class XII · Science</h3><p>Bihar School Examination Board (BSEB)</p></div></div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-box reveal"><div><div class="kicker">05 / Contact</div><h2>Have a project or idea?</h2><p>I’m open to learning, collaborating on student projects, and connecting with people who enjoy building things.</p><p class="edit-note">Replace the placeholder links with your real contact details before publishing.</p></div>
+        <div class="contact-links"><a href="mailto:your.email@example.com">✉ Email</a><a href="https://github.com/" target="_blank" rel="noreferrer">⌘ GitHub</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">↗ LinkedIn</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> Ishu Das</span><span>Designed with purpose. Still learning.</span><a href="#home">Back to top ↑</a></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn');
+const navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'✕':'☰';});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰';}));
+document.getElementById('year').textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
